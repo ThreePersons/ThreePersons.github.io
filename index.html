@@ -4,15 +4,15 @@
 
 	<title>Мобильный университет на платформе SmartGate</title>
 
-	
+
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<link rel="shortcut icon" href="https://www.ibs.ru/bitrix/templates/smartgate/favicon.ico" type="image/x-icon">
-	
+
 	<link href="./Мобильный университет на платформе SmartGate_files/css" rel="stylesheet">
 
-	
+
 <meta name="robots" content="index, follow">
 <meta name="keywords" content="SmartGate">
 <meta name="description" content="Решение для организации мобильных сервисов в современном вузе">
@@ -24,19 +24,19 @@
 <script type="text/javascript">var _ba = _ba || []; _ba.push(["aid", "cb864087723dac777b1edc816ec2bc5a"]); _ba.push(["host", "www.ibs.ru"]); (function() {var ba = document.createElement("script"); ba.type = "text/javascript"; ba.async = true;ba.src = (document.location.protocol == "https:" ? "https://" : "http://") + "bitrix.info/ba.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ba, s);})();</script>
 
 
-	
+
     <!-- Styles -->
 	<link rel="stylesheet" href="./Мобильный университет на платформе SmartGate_files/slick.css">
 	<link rel="stylesheet" href="./Мобильный университет на платформе SmartGate_files/owl.carousel.css">
 	<link rel="stylesheet" href="./Мобильный университет на платформе SmartGate_files/owl.theme.css">
 	<link rel="stylesheet" href="./Мобильный университет на платформе SmartGate_files/selectize.min.css">
-	
+
 	<link rel="stylesheet" href="./Мобильный университет на платформе SmartGate_files/fonts.css">
 	<link rel="stylesheet" href="./Мобильный университет на платформе SmartGate_files/reset.css">
 	<link rel="stylesheet" href="./Мобильный университет на платформе SmartGate_files/jquery.selectBox.css">
 	<link rel="stylesheet" href="./Мобильный университет на платформе SmartGate_files/style.css">
-	
-	
+
+
     	<!-- GoogleAnalytics -->
 	<script>
 	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -80,17 +80,17 @@
 	<noscript><div><img src="https://mc.yandex.ru/watch/22056148" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 	<!-- Yandex.Metrika end -->
 </head>
-	
+
 <body class="">
 	<div id="bx-panel-wrapper" style="position: relative; z-index: 100500 !important; top: 0 !important; left: 0 !important; width: 100% !important;"></div>    <!-- Header start -->
 
 <div class="send-order send-order--overlay"></div>
 
 <div class="send-order send-order--block" tabindex="0" style="overflow: hidden; outline: none;">
-	
+
 	<button class="send-order__close"></button>
-	
-	
+
+
 	<div id="from_ajax_result_178" style="margin-bottom: 20px">
 			<div class="saccess__result" style="display: none">
 			<div class="saccess__result-title">
@@ -104,7 +104,7 @@
 		</div>
 		<div class="support__form">
 		<p class="send-order__title">Запрос в техническую поддержку</p>
-		<form name="iblock_add_178" id="iblock_add_form_178" action="https://www.ibs.ru/smartgate/" method="post" enctype="multipart/form-data" novalidate="novalidate">	
+		<form name="iblock_add_178" id="iblock_add_form_178" action="https://www.ibs.ru/smartgate/" method="post" enctype="multipart/form-data" novalidate="novalidate">
 			<input type="hidden" name="iblock_submit_178" value="Y">
 			<input type="hidden" name="sessid" id="sessid" value="2deb308d5e6ab6a37b1c6a204d16e158">													<div class="input-wrap">
 					<input class="send-order__input" name="PROPERTY[918][n0]" required="" placeholder="ID клиента*">
@@ -139,7 +139,7 @@
 															<option style="display:none!important" selected="" class="select-null" value="251">N/A</option>
 													</select><a class="selectBox send-order__select send-order__select--platform js-send-order__select--platform selectBox-dropdown" title="" tabindex="0" style="width: 0px; display: inline-block;"><span class="selectBox-label select-null" style="width: 77px;">N/A</span><span class="selectBox-arrow"></span></a><ul class="selectBox-dropdown-menu selectBox-options send-order__select-selectBox-dropdown-menu send-order__select--platform-selectBox-dropdown-menu js-send-order__select--platform-selectBox-dropdown-menu" style="display: none;"><li class="select-default"><a rel="">Выберите вариант</a></li><li><a rel="238">На ПК</a></li><li><a rel="239">На мобильном устройстве</a></li><li class="select-null selectBox-selected"><a rel="251">N/A</a></li></ul>
 					</div>
-				</div>	
+				</div>
 																																					<div class="input-wrap js-input-wrap_select js-input-wrap__service">
 					<select class="send-order__select send-order__select--service js-send-order__select--service selectBox" name="PROPERTY[916]" style="display: none;">
 						<option value="" class="select-default">Выберите вариант</option>
@@ -215,7 +215,7 @@ $(function() {
 		$(selector).find('option.select-default').attr('selected','').attr('disabled','');
 		$(selector).find('li.select-default').addClass('selectBox-selected');
 	}
-	
+
 	function HideSelect(selector){
 		$(selector).fadeOut(300);
 		setTimeout(function(){
@@ -225,7 +225,7 @@ $(function() {
 			$(selector).find('span.selectBox-label').addClass('select-null').text('N/A');
 		}, 300);
 	}
-	
+
 	function refrashCapcha(){
 		$.ajax({
 			url: '/bitrix/templates/smartgate/components/defa/lists.iblock.element.add.form.new/support/ajax_captch.php',
@@ -237,7 +237,7 @@ $(function() {
 			}
 		});
 	}
-	
+
 	function deletCapcha(){
 		$.ajax({
 			url: '/bitrix/templates/smartgate/components/defa/lists.iblock.element.add.form.new/support/ajax_captch.php',
@@ -254,30 +254,30 @@ $(function() {
 	function set_cookie ( name, value, exp_min, path, domain, secure )
 	{
 	  var cookie_string = name + "=" + escape ( value );
-	
+
 	  if ( exp_min )
 	  {
 	  var expires=new Date();
 	  expires.setMinutes(exp_min+expires.getMinutes());
 	  cookie_string += "; expires=" + expires.toGMTString();
 	  }
-	  	
+
 	  if ( path )
 	        cookie_string += "; path=" + escape ( path );
-	 
+
 	  if ( domain )
 	        cookie_string += "; domain=" + escape ( domain );
-	  
+
 	  if ( secure )
 	        cookie_string += "; secure";
-	  
+
 	  document.cookie = cookie_string;
 	}
 
 	function get_cookie ( cookie_name )
 	{
 	  var results = document.cookie.match ( '(^|;) ?' + cookie_name + '=([^;]*)(;|$)' );
-	 
+
 	  if ( results )
 	    return ( unescape ( results[2] ) );
 	  else
@@ -288,10 +288,10 @@ $(function() {
 		$('.support__form').hide();
 		$('.block__form').show();
 	}
-	
+
 	var clientIdInput = $('[name=PROPERTY\\[918\\]\\[n0\\]]');
 	clientIdInput.data('validCnt', 1);
-	$('#support-form-submit').on('click', function(event){	
+	$('#support-form-submit').on('click', function(event){
 	var clientIdInput = $('[name=PROPERTY\\[918\\]\\[n0\\]]');
 	var curValidCnt = parseInt(clientIdInput.data('validCnt'));
 		if(clientIdInput.hasClass("error")){
@@ -307,7 +307,7 @@ $(function() {
 			}
 		}
 	});
-	
+
 					$('.js-input-wrap__platform.js-input-wrap_select').find('select').removeAttr('required');
 		$('.js-input-wrap__service.js-input-wrap_select').find('select').removeAttr('required');
 		$('.js-input-wrap__service.js-input-wrap_select').find('select').removeAttr('required');
@@ -327,24 +327,24 @@ $(function() {
 			var selfPortalOption = '';
 			var mobileAppsIOS = '';
 			var mobileAppsAndroid = '';
-								
-					
-																
-					
-																
-					
+
+
+
+
+
+
 					selfPortalOption = '236';
-					
-																
-					
+
+
+
 									mobileAppsIOS = '249';
-																
-					
+
+
 													mobileAppsAndroid = '250';
-												
+
 					enoverOne = '237';
-					
-					
+
+
 														$('.js-send-order__select--problem').selectBox().change(function() {
 				if($(this).val() == selfPortalOption) {
 					ShowSelect('.js-input-wrap__platform.js-input-wrap_select');
@@ -375,25 +375,25 @@ $(function() {
 											$('.js-input-wrap__platform.js-input-wrap_select').find('select').removeAttr('required');
 		$('.js-input-wrap__service.js-input-wrap_select').find('select').removeAttr('required');
 		$('.js-input-wrap__service.js-input-wrap_select').find('select').removeAttr('required');
-							
+
 	var form = $('#iblock_add_form_178');
-	
+
 	$('.saccess__result-show-form-button').on('click', function(){
 		$('.saccess__result').hide();
 		$('.support__form').show();
-		
+
 		form.find('input, textarea').each(function(i,e){
 			if($(e).attr('type') != 'hidden')
 				$(e).val('');
 		});
-		
+
 		$('.selectBox-label').text('Выбирите вариант')
 		$('.load-img__file').hide();
 		HideSelect('.js-input-wrap__service.js-input-wrap_select');
 		HideSelect('.js-input-wrap__platform.js-input-wrap_select');
 		refrashCapcha();
 	});
-	
+
 	jQuery.validator.addMethod("captcha", function(val,e){
 		//$(e).attr('data-valid', 'false');
 		var captchaSId = $('[name=captcha_sid]');
@@ -415,13 +415,13 @@ $(function() {
 					$('[name=captcha_word]').addClass('error');
 					$('[for=captcha_word]').show();
 				}
-			}	
+			}
 		});
 		if($('[name=captcha_word]').attr('data-valid') == 'true')
 			return true;
 	}, "Введите правильно слово с картинки");
 
-	jQuery.validator.addMethod("client_id", function(val, e){ 
+	jQuery.validator.addMethod("client_id", function(val, e){
 		var clientIds = [{"NAME":"\u0421\u0410\u0424\u0423","~NAME":"\u0421\u0410\u0424\u0423","ID":"13827","~ID":"13827","PROPERTY_CLIENT_ID_VALUE":"SMGATE-ESeq0cdFqw","~PROPERTY_CLIENT_ID_VALUE":"SMGATE-ESeq0cdFqw","PROPERTY_CLIENT_ID_VALUE_ID":"37652","~PROPERTY_CLIENT_ID_VALUE_ID":"37652","SORT":"500","~SORT":"500"},{"NAME":"\u0423\u0440\u0424\u0423","~NAME":"\u0423\u0440\u0424\u0423","ID":"15689","~ID":"15689","PROPERTY_CLIENT_ID_VALUE":"IBS-SMGATE-FU-40","~PROPERTY_CLIENT_ID_VALUE":"IBS-SMGATE-FU-40","PROPERTY_CLIENT_ID_VALUE_ID":"45207","~PROPERTY_CLIENT_ID_VALUE_ID":"45207","SORT":"500","~SORT":"500"}];
 		for(i = 0; i < clientIds.length; i++){
 			if(val == clientIds[i].PROPERTY_CLIENT_ID_VALUE)
@@ -544,7 +544,7 @@ $(function() {
 	<div id="wrapper" winscroll-target="top">
 		<div class="wrapp-box">
 
-        	
+
 			<div class="block main" winscroll-target="main">
 				<div class="inner padd">
 					<div class="t t-block t-lg">
@@ -809,10 +809,10 @@ $(function() {
 									<div class="smart-box__title"><strong>SOCIAL</strong><br>(Социальный)</div>
 									<div class="smart-box__desc">SmartGate обеспечивает организацию персонального информационного пространства, реализующего эффективные коммуникации, совместную и проектную деятельность участников образовательного процесса, геймификацию, доступ к социальным медиа, и управление репутацией.</div>
 								</div></div></div>
-								
-								
-								
-								
+
+
+
+
 							<div class="slick-next slick-arrow" style="display: block;"></div></div>
 						</div>
 					</div>
@@ -861,7 +861,7 @@ $(function() {
 										регистрация
 									</p>
 									(Свидетельство о государственной<br>
-									регистрации программы для ЭВМ) 
+									регистрации программы для ЭВМ)
 								</div>
 							</div>
 						</div>
@@ -877,7 +877,7 @@ $(function() {
 							Интерфейс <strong>системы</strong>
 						</h1>
 					</div>
-					
+
 <div class="inter-box">
 	<div class="inter-slider slider-box">
 		<div class="slider__offset">
@@ -902,13 +902,13 @@ $(function() {
 					</div><div class="inters__item slide slick-slide slick-current slick-active" data-slick-index="7" aria-hidden="false" tabindex="-1" role="option" aria-describedby="slick-slide07" style="width: 793px; position: relative; left: -5551px; top: 0px; z-index: 999; opacity: 1;">
 						<img src="./Мобильный университет на платформе SmartGate_files/image-09-03-16-06-36-1.png" alt="">
 					</div></div></div>
-									
-									
-									
-									
-									
-									
-									
+
+
+
+
+
+
+
 							</div>
 		</div>
 		<div class="sl-btns">
@@ -1124,9 +1124,9 @@ $(function() {
 										</div>
 									</div>
 								</div></div></div></div>
-								
-								
-								
+
+
+
 							</div>
 							<div class="sl-btns">
 								<div class="sl-btn sl-prev"></div>
@@ -1136,9 +1136,9 @@ $(function() {
 					</div>
 					<div class="block__subtitle1 slick-initialized slick-slider" style=""><div class="slick-prev slick-arrow" style="display: block;"></div>
 						<div aria-live="polite" class="slick-list draggable"><div class="slick-track" role="listbox" style="opacity: 1; width: 0px; left: 0px;"><p ab-t1="it" class="slick-slide slick-cloned" data-slick-index="-1" aria-hidden="true" tabindex="-1" style="width: 0px;">Для ИТ-службы</p><p ab-t1="rect" class="slick-slide" data-slick-index="0" aria-hidden="true" tabindex="-1" role="option" aria-describedby="slick-slide20" style="width: 0px;">Для ректора</p><p ab-t1="prep" class="slick-slide" data-slick-index="1" aria-hidden="true" tabindex="-1" role="option" aria-describedby="slick-slide21" style="width: 0px;">Для преподавателей</p><p ab-t1="stud" class="slick-slide slick-current slick-active" data-slick-index="2" aria-hidden="false" tabindex="-1" role="option" aria-describedby="slick-slide22" style="width: 0px;">Для студентов</p><p ab-t1="it" class="slick-slide" data-slick-index="3" aria-hidden="true" tabindex="-1" role="option" aria-describedby="slick-slide23" style="width: 0px;">Для ИТ-службы</p><p ab-t1="rect" class="slick-slide slick-cloned" data-slick-index="4" aria-hidden="true" tabindex="-1" style="width: 0px;">Для ректора</p></div></div>
-						
-						
-						
+
+
+
 					<div class="slick-next slick-arrow" style="display: block;"></div></div>
 					<div class="abils-slider2-wrap">
 						<div class="abils-slider2-item abil-group rect fadeout">
@@ -1418,17 +1418,17 @@ $(function() {
 							</div>
 						</div>
 					</div>
-						
+
 						<div class="fb-box">
 	<div class="b_153 web_forms_block">
 		<div id="from_ajax_result_153">
-			
-			
-				
+
+
+
 									<form class="form-b" name="iblock_add_153" id="iblock_add_form_153" action="https://www.ibs.ru/smartgate/" method="post" enctype="multipart/form-data" novalidate="novalidate">
 					<div class="fb-cont form-cont">
 	        			<input type="hidden" name="iblock_submit_153" value="Y">
-						<input type="hidden" name="sessid" id="sessid_1" value="2deb308d5e6ab6a37b1c6a204d16e158">										
+						<input type="hidden" name="sessid" id="sessid_1" value="2deb308d5e6ab6a37b1c6a204d16e158">
 				<fieldset class="clearfix">
 
 
@@ -1444,7 +1444,7 @@ $(function() {
 										<textarea name="PROPERTY[PREVIEW_TEXT][0]" class="span5" placeholder="Вы можете оставить дополнительный комментарий"></textarea>
 									</div>
 								</div>
-													
+
 										<div class="fb-line">
 						<div class="agreem_block required">
 							<a href="https://www.ibs.ru/smartgate/">
@@ -1485,7 +1485,7 @@ $(function() {
 	jQuery.validator.addMethod("lettersonly", function(value, element) {
 	  return this.optional(element) || /^[a-zA-ZА-Яа-я\s]+$/i.test(value);
 	}, "Имя и фамилия могут содержать только буквы");
-	
+
 	jQuery.validator.addMethod("twoWords", function(value, element) {
 	  return this.optional(element) || /^[a-zA-ZА-Яа-я][a-zA-ZА-Яа-я]+\s[a-zA-ZА-Яа-я][a-zA-ZА-Яа-я]+$/i.test(value);
 	}, "Имя и фамилия должны состоять из двух слов разделенных пробелом");
@@ -1637,7 +1637,7 @@ $(function() {
 					</div>
 				</div>
 			</div>
-		<!-- Footer end -->	
+		<!-- Footer end -->
 		</div>
 		<script src="./Мобильный университет на платформе SmartGate_files/jquery-2.1.3.min.js.Без названия"></script>
 		<script src="./Мобильный университет на платформе SmartGate_files/owl.carousel.min.js.Без названия"></script>
@@ -1648,5 +1648,5 @@ $(function() {
 		<script src="./Мобильный университет на платформе SmartGate_files/main.js.Без названия"></script>
 		<script src="./Мобильный университет на платформе SmartGate_files/jquery.validate.min.js.Без названия"></script>
 		<script src="./Мобильный университет на платформе SmartGate_files/jquery.form.min.js.Без названия"></script>
-	
+
 <div id="ascrail2000" class="nicescroll-rails nicescroll-rails-vr" style="width: 8px; z-index: 101; cursor: default; position: fixed; top: 0px; left: 642px; height: 657px; display: none;"><div class="nicescroll-cursors" style="position: relative; top: 0px; float: right; width: 6px; height: 0px; background-color: rgb(150, 150, 150); border: 1px solid rgb(255, 255, 255); background-clip: padding-box; border-radius: 5px;"></div></div><div id="ascrail2000-hr" class="nicescroll-rails nicescroll-rails-hr" style="height: 8px; z-index: 101; top: 649px; left: 0px; position: fixed; cursor: default; display: none;"><div class="nicescroll-cursors" style="position: absolute; top: 0px; height: 6px; width: 0px; background-color: rgb(150, 150, 150); border: 1px solid rgb(255, 255, 255); background-clip: padding-box; border-radius: 5px;"></div></div></body></html>
