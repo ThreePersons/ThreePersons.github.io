@@ -1,0 +1,32 @@
+.banner, .video, .about, .interface, .abilities, .presentation, .architech{
+  padding: 100px 0;
+}
+
+.banner{
+  background: url(../img/banner.jpg) left top no-repeat /cover;
+}
+
+.video{
+  text-align: center;
+}
+
+
+
+.m1{
+  background: url(../img/m1.png) center center no-repeat /cover;
+}
+.m2{
+  background: url(../img/m2.png) center center no-repeat /cover;
+}
+.m3{
+  background: url(../img/m3.png) center center no-repeat /cover;
+}
+.m4{
+  background: url(../img/m4.png) center center no-repeat /cover;
+}
+
+.m1, .m2, .m3, .m4{
+  background-size: auto 210px;
+  background-position: 15px center;
+  height: 210px;
+}
