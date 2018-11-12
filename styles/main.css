@@ -13,20 +13,49 @@
 
 
 .m1{
-  background: url(../img/m1.png) center center no-repeat /cover;
+  background: url(../img/m1.png);
 }
 .m2{
-  background: url(../img/m2.png) center center no-repeat /cover;
+  background: url(../img/m2.png);
 }
 .m3{
-  background: url(../img/m3.png) center center no-repeat /cover;
+  background: url(../img/m3.png);
 }
 .m4{
-  background: url(../img/m4.png) center center no-repeat /cover;
+  background: url(../img/m4.png);
 }
 
 .m1, .m2, .m3, .m4{
   background-size: auto 210px;
-  background-position: 15px center;
+  background-position: center center;
   height: 210px;
+  background-repeat: no-repeat;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+  padding: 0 10px;
+  text-align: center;
+}
+
+.bg-slide{
+  background: url(../img/inter-slider_bg.png);
+  background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+.carousel-paddings{
+  padding: 3.4% 20%;
+}
+
+
+.carousel-control-next, .carousel-control-prev {
+color: black;
 }
