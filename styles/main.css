@@ -1,4 +1,4 @@
-.banner, .video, .about, .interface, .abilities, .presentation, .architech{
+.banner, .video, .about, .interface,.feedback, .abilities, .presentation, .architech{
   padding: 100px 0;
 }
 
@@ -58,4 +58,16 @@
 
 .carousel-control-next, .carousel-control-prev {
 color: black;
+}
+.feedback{
+background-color: #EEECEC;
+}
+.feedback h2{
+  padding: 80px 0 5px;
+}
+hr{
+  max-width: 1000px;
+  margin: 5px auto 0;
+  border-width: 5px;
+  border-color: yellow;
 }
