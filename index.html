@@ -109,19 +109,22 @@
     <h2 class="h2-O text-center">НАПИШИТЕ НАМ, И МЫ СРАЗУ ЖЕ С ВАМИ СВЯЖЕМСЯ!</h2>
     <hr>
   <div class="container">
-    <form action="" class="postcard">
-  <div class="form-row">
-    <label for="name">Ваше имя</label><input type="text" id="name" required>
+    <form class="form-"action="" class="postcard">
+      <div class="form-container col-6">
+      <div class="form-group">
+         <label for="exampleFormControlTextarea1">Имя Фамилия</label>
+         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+  <div class="form-group">
+    <label for="exampleFormControlInput1">Email address</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
   </div>
-  <div class="form-row">
-    <label for="email">Ваш Email</label><input type="email" id="email" required>
   </div>
-  <div class="form-row">
-    <label for="message">Ваше сообщение</label><textarea rows="5" id="message" required></textarea>
-  </div>
-  <div class="form-row">
-    <input type="submit" value="Отправить сообщение">
-  </div>
+  <div class="form-group col-10">
+       <label for="exampleFormControlTextarea1">Вы можете оставить дополнительный комментарий</label>
+       <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+    <button type="button" class="btn btn-warning">Отправить сообщение</button>
 </form>
   </div>
 
