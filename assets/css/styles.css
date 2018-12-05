@@ -313,6 +313,11 @@ a:focus {
   margin-top: 15px;
 }
 
+.chart {
+  width: 100%;
+  min-height: 500px;
+}
+
 /* ======= About Section ======= */
 .about-section {
   padding-top: 150px;
@@ -498,7 +503,7 @@ color: black;
 }
 
 .feature-nav .nav-link .svg-inline--fa {
-  margin-right: 15px;
+  margin-right: 5px;
   width: 20px;
   font-size: 30px;
   position: relative;
